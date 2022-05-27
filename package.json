@@ -1,0 +1,26 @@
+{
+  "name": "data-visualization",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build --no-source-maps --dist-dir build ./src/index.html"
+  },
+  "keywords": [
+    "d3",
+    "data",
+    "data-visualization"
+  ],
+  "author": "saurabh verma",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^7.4.4",
+    "parcel": "^2.5.0",
+    "topojson": "^3.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  }
+}
